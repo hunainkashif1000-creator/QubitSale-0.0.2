@@ -6,10 +6,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 /* ==== DATABASE DETAILS ==== */
-$host = "sql112.infinityfree.com";
-$user = "if0_41890867";
-$pass = "VqPJfCytFgIcrAA";
-$db   = "if0_41890867_Qubitsale";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "qubitsale_db";
 /* =========================== */
 
 // Check if mysqli exists
